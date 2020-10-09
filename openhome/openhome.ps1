@@ -43,8 +43,8 @@ $UserIdleThresholdSeconds = 1800 # 1800 seconds = 30 minutes
 $UserIdleThresholdMinutes = $UserIdleThresholdSeconds / 60
 $DashboardURL = "https://home.taylorsturtz.com"
 $WarningTimeInMilliseconds = 5000 # There are min/max bounds on this - 5000 is default
-$WarningThresholdMinutes1 = $UserIdleThresholdMinutes - 10
-$WarningThresholdMinutes2 = $UserIdleThresholdMinutes - 5
+$WarningThresholdMinutes1 = $UserIdleThresholdMinutes - 5
+$WarningThresholdMinutes2 = $UserIdleThresholdMinutes - 3
 $WarningThresholdMinutes3 = $UserIdleThresholdMinutes - 1
 $WShell = New-Object -com "Wscript.Shell"
 
